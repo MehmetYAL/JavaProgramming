@@ -1,6 +1,6 @@
 package Utulities;
 
-import Day34_GarbageCollection_AccessModifiers.AccessModifiers;
+import day34_GarbageCollection_AccessModifiers.AccessModifiers;
 
 public class AccessModifierTest {
     public static void main(String[] args) {
