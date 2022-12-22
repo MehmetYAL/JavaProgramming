@@ -10,7 +10,9 @@ public class Animal {
 
 
     //final can not be setters can only be getter
-    public Animal(String breed, char gender, String color, String size, int age) {
+
+    public Animal(String name, String breed, char gender, String color, String size, int age) {
+        this.name = name;
         this.breed = breed;
         this.gender = gender;
         this.color = color;
@@ -57,7 +59,15 @@ public class Animal {
         this.age = age;
     }
 
+//--------------------------------------------------
 
+    public void eat(){
+        System.out.println(name+" is eating");
+    }
+
+    public final void drink(){
+        System.out.println(name+" is drinking");
+    }
 
 
 
