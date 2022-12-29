@@ -51,7 +51,7 @@ public class ScrumTeam {
 Creat a class named ScrumTeam:
 			Variables:
 				PO (ProductOwner), BA (BusinessAnalyst), SM (ScrumMaster),
-				testers (ArrayList<Testers>),  developers (ArrayList<Developers>)
+				testers (ArrayList<Testers>),  developers (ArrayList<Developer>)
 
 			Methods:
 				addTester(Tester tester): adds the given tester to testers arraylist
